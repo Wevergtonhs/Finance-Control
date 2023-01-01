@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+    <title>Finance Control</title>
+</head>
+<body>
+    <header>
+
+        <div class="title">
+            <h1>Finance Control</h1>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="resume">
+            <div class="cards">
+                Received
+                <p>R$ 3.650,00</p>
+            </div>
+            <div class="cards">
+                Paid Out
+                <p>R$ 1.974,00</p>
+            </div>
+            <div class="cards">Total
+                <p>R$ 1.676,00</p></div>
+            </div>
+
+        <div class="data">
+            <div class="name">
+                <div>
+                    <label for="description">Description</label>
+                </div>
+                    <input id="description" type="text"/>
+            </div>
+            
+            <div class="price">
+                <div>
+                    <label for="value">Value</label>
+                </div>
+                    <input id="value" type="number"/>
+            </div>
+            
+            <div class="status">
+                <div> 
+                    <input id="received" name="movement" type="radio">
+                    <label for="received">Received</label>
+                </div>
+                <div>
+                    <input id="spend" name="movement" type="radio">
+                    <label for="spend">Paid Out</label>
+                </div>
+            </div>
+
+            <input type="button" value="Save">
+        </div>
+
+        <div class="table">
+            <div class=" row">
+                <p>Name</p>
+                <p>R$ value</p>
+                <i id="down" class="mdi mdi-arrow-down-bold-box"></i>
+                <i class="mdi mdi-delete"></i>
+            </div>
+
+            <div class=" row">
+                <p>Name</p>
+                <p>R$ value</p>
+                <i id="up" class="mdi mdi-arrow-up-bold-box"></i>
+                <i class="mdi mdi-delete"></i>
+            </div>
+
+        </div>
+    
+    </main>
+    
+</body>
+</html>
